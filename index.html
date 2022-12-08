@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/css/main.css">
+</head>
+<body>
+    <form id="form">
+        <label for="summa">amount</label>
+        <input placeholder="150" id="summa" type="text"><i class="repit fa-solid fa-repeat"></i>
+        <div class="select-box">
+            <img  class="select1-img" src="images/rasm1.png" alt="uzb">
+        <select  id="form-lang1" class="selects">
+            <option selected disabled >from</option>
+             <option class="select11" value="USD"> USD / Dollar</option>
+            <option class="select12" value="SUMM">UZS / Summ </option>
+            <option class="select13" value="Rubl">RUB / Ruble </option>
+        </select>
+        </div>
+          <div class="select-box">
+             <img  class="select2-img" src="images/rasm2.png" alt="uzb">
+        <select  id="form-lang2" class="selects">
+            <option selected disabled  >to</option>
+             <option class="select21" value="SUMM">UZS / Summ </option>
+             <option  class="select22" value="USD"> USD / Dollar</option>
+             <option class="select23" value="Rubl">RUB / Ruble </option>
+        </select>
+        </div>
+        <button class="btn" type="submit">convert</button>
+        <div class="natija"><span class="one-element"></span> = <span class="two-element"></span></div>
+    </form>
+    <script src="app.js"></script>
+</body>
+</html>
