@@ -21,7 +21,7 @@ let select2img = document.querySelector(".select2-img");
 // // }
 let oneElement = document.querySelector(".one-element");
 let twoElement = document.querySelector(".two-element");
-
+let middleElement = document.querySelector(".middle-element");
 let repit = document.querySelector(".repit")
 
 
@@ -87,7 +87,7 @@ form.addEventListener("submit", (e) => {
   
   let todo = input.value;
   console.log(todo);
-    
+    middleElement.innerText = " = "
   if (selectvalue === "USD" && selectvalue2 === "SUMM") {
     oneElement.innerText = `${todo} $`;
     twoElement.innerText = `${todo * dollortosum} summ`;
