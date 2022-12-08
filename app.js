@@ -120,7 +120,7 @@ form.addEventListener("submit", (e) => {
 })
 
 repit.addEventListener("click" , () => {
-  input.remove
+  input.value = "" ;
   console.log("repit bosildii");
  
 })
